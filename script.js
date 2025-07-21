@@ -13,9 +13,9 @@ let body = document.querySelector("body");
 mode.addEventListener("click", () => {
   body.classList.toggle("light-mode");
   if (document.body.classList.contains("light-mode")) {
-    modeImg.src = "assets/images/icon-sun.svg"; // icon for dark
+    modeImg.src = "assets/images/icon-moon.svg"; // icon for light
   } else {
-    modeImg.src = "assets/images/icon-sun.svg"; // icon for light
+    modeImg.src = "assets/images/icon-sun.svg"; // icon for dark
   }
 });
 all.classList.add("red-bg");
